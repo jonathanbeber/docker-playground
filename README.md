@@ -30,3 +30,4 @@ Where `/home/user/host_dir` is the directory's path (must be full path) that gon
 
 - [GUI apps with docker :shipit:](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
 - [Docker for DevOps: From development to production](https://www.kickstarter.com/projects/nickjj/docker-for-devops-from-development-to-production)
+- [Bash style](https://github.com/progrium/bashstyle)
