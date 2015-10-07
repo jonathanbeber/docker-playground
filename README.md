@@ -21,7 +21,7 @@ After that, you can run this with command:
 * Mounting directories
 
 ```
-user@localhost:~$ docker run -v /home/user/host_dir:/docker/image/dir -t docker_image
+[sudo] docker run -v /home/user/host_dir:/docker/image/dir -t docker_image
 ```
 Where /home/user/host_dir is the directory's path (must be full path) that gonna be mounted into the docker's image in /docker/image/dir.
 
