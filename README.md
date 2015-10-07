@@ -2,12 +2,6 @@
 
 ## Some examples
 
-* Mounting directories
-
-```
-user@localhost:~$ docker run -v /home/user/host_dir:/docker/image/dir docker_image
-```
-
 * Updating Dockerfile after changes, you need run:
 
 ```sh
@@ -21,7 +15,13 @@ Where `user/project:tag` is an alias to run your Docker container.
 After that, you can run this with command:
 
 ```sh
-[sudo] docker run user/project:tag
+[sudo] docker run -t user/project:tag
+```
+
+* Mounting directories
+
+```
+user@localhost:~$ docker run -v /home/user/host_dir:/docker/image/dir docker_image
 ```
 
 ## Links
