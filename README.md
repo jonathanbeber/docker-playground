@@ -1,8 +1,14 @@
 # Docker Playground
 
-## Usage
+## Some examples
 
-Updating Dockerfile after changes, you need run: 
+* Mounting directories
+
+```
+user@localhost:~$ docker run -v /home/user/host_dir:/docker/image/dir docker_image
+```
+
+* Updating Dockerfile after changes, you need run: 
 
 ```sh
 [sudo] docker build .
