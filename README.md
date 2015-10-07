@@ -2,7 +2,7 @@
 
 ## Some examples
 
-* Updating Dockerfile after changes, you need run:
+### Updating Dockerfile after changes, you need run:
 
 ```sh
 [sudo] docker build -t user/project:tag .
@@ -18,7 +18,7 @@ After that, you can run this with command:
 [sudo] docker run -t user/project:tag
 ```
 
-* Mounting directories
+### Mounting directories
 
 ```
 [sudo] docker run -v /home/user/host_dir:/docker/image/dir -t docker_image
