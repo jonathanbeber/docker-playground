@@ -14,7 +14,7 @@ user@localhost:~$ docker run -v /home/user/host_dir:/docker/image/dir docker_ima
 [sudo] docker build -t user/project:tag .
 ```
 
-When `user/project:tag` is an alias to run your Docker container.
+Where `user/project:tag` is an alias to run your Docker container.
 
 `user/project` can be your own Dockerhub user and project name, and `:tag` is an alias that can be the version of your project.
 
