@@ -5,16 +5,17 @@ RUN echo "http://nl.alpinelinux.org/alpine/edge/main" | \
 
   # Install packages
   && apk add --update \
-    nodejs \
+    make \
+    bash \
     python \
+    nodejs \
+
+  && rm -rf /var/cache/apk/* \
 
   # NodeJS
-  && npm i -g stream-adventure \
-    nodemon \
-    mocha \
-    express-generator \
-    istanbul
+  && npm i -g nodemon
 
-EXPOSE 80
+EXPOSE 5858
+EXPOSE 3000
 
 WORKDIR /app
